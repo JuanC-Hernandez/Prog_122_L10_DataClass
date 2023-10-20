@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Prog_122_L10_DataClass"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas>
+        <RichTextBox Height="192" Width="422" Canvas.Left="189" Canvas.Top="84">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="rtbDisplay" Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
 
-    </Grid>
+    </Canvas>
 </Window>
